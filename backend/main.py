@@ -6660,7 +6660,7 @@ app = FastAPI(title="DIGIT Multi-LOB Processor API - Enhanced TW Edition (FIXED)
 # Enable CORS
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+    allow_origins=["https://digit-excel-two-wheelers.vercel.app"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
